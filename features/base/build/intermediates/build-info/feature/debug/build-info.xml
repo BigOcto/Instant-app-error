@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    build-mode="FULL"
+    format="10"
+    plugin-version="3.0.0-beta3"
+    timestamp="1503987788809"
+    verifier="NOT_RUN" >
+
+    <task
+        name="javac"
+        duration="284" />
+    <task
+        name="instant-run-dex"
+        duration="0" />
+    <task
+        name="instant-run-transform"
+        duration="0" />
+    <task
+        name="verifier"
+        duration="0" />
+
+    <artifact
+        location="/Users/zhangyu/OpenProjects/android-instant-apps/hello-feature-module/features/base/build/outputs/apk/feature/debug/base-debug.apk"
+        type="MAIN" />
+
+    <build
+        build-mode="FULL"
+        timestamp="1503987788809"
+        verifier="NOT_RUN" >
+        <artifact
+            location="/Users/zhangyu/OpenProjects/android-instant-apps/hello-feature-module/features/base/build/outputs/apk/feature/debug/base-debug.apk"
+            type="MAIN" />
+    </build>
+
+</instant-run>

@@ -1,0 +1,2 @@
+include ':installed', ':instant', ':baselibrary',
+        ':features:base', ':features:hello', ':features:bye'

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/shape_cornor_circle"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/wifi_5g_dialog_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="22dp"
+        android:gravity="center"
+        android:text="@string/build_5g_wifi_title"
+        android:lineSpacingMultiplier="1.2"
+        android:textColor="#000000"
+        android:textSize="14dp" />
+
+    <TextView
+        android:id="@+id/wifi_5g_dialog_summary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:drawableRight="@drawable/rockect_create"
+        android:paddingTop="14dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="4dp"
+        android:paddingBottom="22dp"
+        android:drawablePadding="5dp"
+        android:text="@string/build_5g_wifi_summary"
+        android:textColor="#111111"
+        android:textSize="13dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#ffffff"/>
+
+    <TextView
+        android:id="@+id/wifi_5g_create_button"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:gravity="center"
+        android:text="创建"
+        android:textColor="#222222"
+        android:textSize="18dp" />
+</LinearLayout>

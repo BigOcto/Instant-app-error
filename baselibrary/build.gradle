@@ -1,0 +1,26 @@
+apply plugin: 'com.android.library'
+//apply plugin: 'com.android.feature'
+
+android {
+    compileSdkVersion rootProject.compileSdk
+    buildToolsVersion rootProject.buildTools
+
+    defaultConfig {
+        minSdkVersion rootProject.minSdk
+        targetSdkVersion rootProject.compileSdk
+        versionCode rootProject.versionCode
+        versionName rootProject.versionName
+    }
+    buildTypes {
+        release {}
+        debug {}
+    }
+//    baseFeature true
+
+}
+
+dependencies {
+//    application project(":installed")
+//    compile project(':features:base')
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+}

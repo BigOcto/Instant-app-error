@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">baselibrary</string>
+    <string name="build_5g_wifi_title">极速传输的速度可达\n普通传输的5倍</string>
+    <string name="build_5g_wifi_summary">请确保与你传输的设备有此标识</string>
+</resources>
