@@ -5,7 +5,7 @@ INJECTED from /Users/zhangyu/OpenProjects/hello-feature-module/installed/src/mai
 INJECTED from /Users/zhangyu/OpenProjects/hello-feature-module/installed/src/main/AndroidManifest.xml:17:1-19:74
 INJECTED from /Users/zhangyu/OpenProjects/hello-feature-module/installed/src/main/AndroidManifest.xml:17:1-19:74
 MERGED from [:features:hello] /Users/zhangyu/OpenProjects/hello-feature-module/features/hello/build/intermediates/manifests/full/debug/AndroidManifest.xml:17:1-67:12
-MERGED from [:features:bye] /Users/zhangyu/OpenProjects/hello-feature-module/features/bye/build/intermediates/manifests/full/debug/AndroidManifest.xml:17:1-66:12
+MERGED from [:features:bye] /Users/zhangyu/OpenProjects/hello-feature-module/features/bye/build/intermediates/manifests/full/debug/AndroidManifest.xml:17:1-68:12
 MERGED from [com.google.android.instantapps:instantapps:1.0.0] /Users/zhangyu/.gradle/caches/transforms-1/files-1.1/instantapps-1.0.0.aar/357b87ccd5421d0b6b52bb0f3a489ffa/AndroidManifest.xml:2:1-7:12
 MERGED from [:features:base] /Users/zhangyu/OpenProjects/hello-feature-module/features/base/build/intermediates/manifests/full/debug/AndroidManifest.xml:17:1-39:12
 MERGED from [:baselibrary] /Users/zhangyu/OpenProjects/hello-feature-module/baselibrary/build/intermediates/manifests/full/debug/AndroidManifest.xml:2:1-11:12
@@ -83,8 +83,8 @@ INJECTED from /Users/zhangyu/OpenProjects/hello-feature-module/installed/src/mai
 		INJECTED from /Users/zhangyu/OpenProjects/hello-feature-module/installed/src/main/AndroidManifest.xml
 application
 ADDED from [:features:hello] /Users/zhangyu/OpenProjects/hello-feature-module/features/hello/build/intermediates/manifests/full/debug/AndroidManifest.xml:26:5-65:19
-MERGED from [:features:bye] /Users/zhangyu/OpenProjects/hello-feature-module/features/bye/build/intermediates/manifests/full/debug/AndroidManifest.xml:26:5-64:19
-MERGED from [:features:bye] /Users/zhangyu/OpenProjects/hello-feature-module/features/bye/build/intermediates/manifests/full/debug/AndroidManifest.xml:26:5-64:19
+MERGED from [:features:bye] /Users/zhangyu/OpenProjects/hello-feature-module/features/bye/build/intermediates/manifests/full/debug/AndroidManifest.xml:28:5-66:19
+MERGED from [:features:bye] /Users/zhangyu/OpenProjects/hello-feature-module/features/bye/build/intermediates/manifests/full/debug/AndroidManifest.xml:28:5-66:19
 MERGED from [com.google.android.instantapps:instantapps:1.0.0] /Users/zhangyu/.gradle/caches/transforms-1/files-1.1/instantapps-1.0.0.aar/357b87ccd5421d0b6b52bb0f3a489ffa/AndroidManifest.xml:4:3-6:17
 MERGED from [com.google.android.instantapps:instantapps:1.0.0] /Users/zhangyu/.gradle/caches/transforms-1/files-1.1/instantapps-1.0.0.aar/357b87ccd5421d0b6b52bb0f3a489ffa/AndroidManifest.xml:4:3-6:17
 MERGED from [:features:base] /Users/zhangyu/OpenProjects/hello-feature-module/features/base/build/intermediates/manifests/full/debug/AndroidManifest.xml:28:5-37:19
@@ -119,8 +119,8 @@ MERGED from [com.android.support:support-compat:25.3.1] /Users/zhangyu/.gradle/c
 		ADDED from [:features:base] /Users/zhangyu/OpenProjects/hello-feature-module/features/base/build/intermediates/manifests/full/debug/AndroidManifest.xml:29:9-69
 meta-data#asset_statements
 ADDED from [:features:hello] /Users/zhangyu/OpenProjects/hello-feature-module/features/hello/build/intermediates/manifests/full/debug/AndroidManifest.xml:27:9-29:59
-MERGED from [:features:bye] /Users/zhangyu/OpenProjects/hello-feature-module/features/bye/build/intermediates/manifests/full/debug/AndroidManifest.xml:27:9-29:59
-MERGED from [:features:bye] /Users/zhangyu/OpenProjects/hello-feature-module/features/bye/build/intermediates/manifests/full/debug/AndroidManifest.xml:27:9-29:59
+MERGED from [:features:bye] /Users/zhangyu/OpenProjects/hello-feature-module/features/bye/build/intermediates/manifests/full/debug/AndroidManifest.xml:29:9-31:59
+MERGED from [:features:bye] /Users/zhangyu/OpenProjects/hello-feature-module/features/bye/build/intermediates/manifests/full/debug/AndroidManifest.xml:29:9-31:59
 MERGED from [:features:base] /Users/zhangyu/OpenProjects/hello-feature-module/features/base/build/intermediates/manifests/full/debug/AndroidManifest.xml:34:9-36:59
 MERGED from [:features:base] /Users/zhangyu/OpenProjects/hello-feature-module/features/base/build/intermediates/manifests/full/debug/AndroidManifest.xml:34:9-36:59
 	android:resource
@@ -173,20 +173,24 @@ ADDED from [:features:hello] /Users/zhangyu/OpenProjects/hello-feature-module/fe
 		ADDED from [:features:hello] /Users/zhangyu/OpenProjects/hello-feature-module/features/hello/build/intermediates/manifests/full/debug/AndroidManifest.xml:51:21-43
 	android:pathPrefix
 		ADDED from [:features:hello] /Users/zhangyu/OpenProjects/hello-feature-module/features/hello/build/intermediates/manifests/full/debug/AndroidManifest.xml:50:21-48
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from [:features:bye] /Users/zhangyu/OpenProjects/hello-feature-module/features/bye/build/intermediates/manifests/full/debug/AndroidManifest.xml:26:5-75
+	android:name
+		ADDED from [:features:bye] /Users/zhangyu/OpenProjects/hello-feature-module/features/bye/build/intermediates/manifests/full/debug/AndroidManifest.xml:26:22-72
 activity#com.instantappsamples.feature.bye.GoodbyeActivity
-ADDED from [:features:bye] /Users/zhangyu/OpenProjects/hello-feature-module/features/bye/build/intermediates/manifests/full/debug/AndroidManifest.xml:31:9-63:20
+ADDED from [:features:bye] /Users/zhangyu/OpenProjects/hello-feature-module/features/bye/build/intermediates/manifests/full/debug/AndroidManifest.xml:33:9-65:20
 	android:label
-		ADDED from [:features:bye] /Users/zhangyu/OpenProjects/hello-feature-module/features/bye/build/intermediates/manifests/full/debug/AndroidManifest.xml:33:13-59
+		ADDED from [:features:bye] /Users/zhangyu/OpenProjects/hello-feature-module/features/bye/build/intermediates/manifests/full/debug/AndroidManifest.xml:35:13-59
 	android:theme
-		ADDED from [:features:bye] /Users/zhangyu/OpenProjects/hello-feature-module/features/bye/build/intermediates/manifests/full/debug/AndroidManifest.xml:34:13-44
+		ADDED from [:features:bye] /Users/zhangyu/OpenProjects/hello-feature-module/features/bye/build/intermediates/manifests/full/debug/AndroidManifest.xml:36:13-44
 	android:name
-		ADDED from [:features:bye] /Users/zhangyu/OpenProjects/hello-feature-module/features/bye/build/intermediates/manifests/full/debug/AndroidManifest.xml:32:13-77
+		ADDED from [:features:bye] /Users/zhangyu/OpenProjects/hello-feature-module/features/bye/build/intermediates/manifests/full/debug/AndroidManifest.xml:34:13-77
 meta-data#default-url
-ADDED from [:features:bye] /Users/zhangyu/OpenProjects/hello-feature-module/features/bye/build/intermediates/manifests/full/debug/AndroidManifest.xml:35:13-37:82
+ADDED from [:features:bye] /Users/zhangyu/OpenProjects/hello-feature-module/features/bye/build/intermediates/manifests/full/debug/AndroidManifest.xml:37:13-39:82
 	android:value
-		ADDED from [:features:bye] /Users/zhangyu/OpenProjects/hello-feature-module/features/bye/build/intermediates/manifests/full/debug/AndroidManifest.xml:37:17-79
+		ADDED from [:features:bye] /Users/zhangyu/OpenProjects/hello-feature-module/features/bye/build/intermediates/manifests/full/debug/AndroidManifest.xml:39:17-79
 	android:name
-		ADDED from [:features:bye] /Users/zhangyu/OpenProjects/hello-feature-module/features/bye/build/intermediates/manifests/full/debug/AndroidManifest.xml:36:17-43
+		ADDED from [:features:bye] /Users/zhangyu/OpenProjects/hello-feature-module/features/bye/build/intermediates/manifests/full/debug/AndroidManifest.xml:38:17-43
 meta-data#aia-compat-api-min-version
 ADDED from [com.google.android.instantapps:instantapps:1.0.0] /Users/zhangyu/.gradle/caches/transforms-1/files-1.1/instantapps-1.0.0.aar/357b87ccd5421d0b6b52bb0f3a489ffa/AndroidManifest.xml:5:5-77
 	android:value
