@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/zhangyu/OpenProjects/android-instant-apps/hello-feature-module/features/base/build/intermediates/incremental/mergeDebugFeatureResources/merged.dir/values-ru/values-ru.xml",
+            "outputFile": "/Users/zhangyu/OpenProjects/hello-feature-module/features/base/build/intermediates/incremental/mergeDebugFeatureResources/merged.dir/values-ru/values-ru.xml",
             "map": [
                 {
-                    "source": "/Users/zhangyu/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/dbe43f99032db073c807a13a2402752f/res/values-ru/values-ru.xml",
+                    "source": "/Users/zhangyu/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/c4ad1d280de76d3a9eaec17ef13c3114/res/values-ru/values-ru.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",

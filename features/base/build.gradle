@@ -43,6 +43,6 @@ dependencies {
     application project(":installed")
     feature project(':features:bye')
 //    feature project(':features:hello')
-    compile project(':baselibrary')
+    implementation project(':baselibrary')
     api "com.android.support:appcompat-v7:${rootProject.supportLib}"
 }

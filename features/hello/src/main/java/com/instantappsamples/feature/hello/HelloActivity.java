@@ -29,6 +29,7 @@ import android.text.SpannableString;
 import android.text.TextUtils;
 import android.text.style.ForegroundColorSpan;
 import android.util.DisplayMetrics;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -36,6 +37,7 @@ import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.LinearLayout;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.example.baselibrary.DebugHelp;
 
@@ -74,6 +76,10 @@ public class HelloActivity extends AppCompatActivity {
 
             }
         },"hello world");
+
+//        int id = getResources().getIdentifier("activity_goodbye","layout",getApplication().getPackageName());
+//        Toast.makeText(this,String.valueOf(id),Toast.LENGTH_LONG).show();
+//        Log.e("getResource","getResource result id : " + id);
     }
 
 

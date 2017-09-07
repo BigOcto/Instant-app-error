@@ -1,15 +1,15 @@
 #Internal package file, do not edit.
-#Tue Aug 29 14:29:25 CST 2017
-1.base=/Users/zhangyu/OpenProjects/android-instant-apps/hello-feature-module/features/bye/build/intermediates/res/feature/debug/resources-debugFeature.ap_
-1.file=/Users/zhangyu/OpenProjects/android-instant-apps/hello-feature-module/features/bye/build/intermediates/res/feature/debug/resources-debugFeature.ap_/res/layout/activity_goodbye.xml
-2.base=/Users/zhangyu/OpenProjects/android-instant-apps/hello-feature-module/features/bye/build/intermediates/transforms/dexMerger/feature/debug/0
-3.set=ANDROID_RESOURCE
-2.set=DEX
-2.file=/Users/zhangyu/OpenProjects/android-instant-apps/hello-feature-module/features/bye/build/intermediates/transforms/dexMerger/feature/debug/0/classes.dex
+#Tue Sep 05 19:53:34 CST 2017
+1.base=/Users/zhangyu/OpenProjects/hello-feature-module/features/bye/build/intermediates/res/feature/debug/resources-debugFeature.ap_
+1.file=/Users/zhangyu/OpenProjects/hello-feature-module/features/bye/build/intermediates/res/feature/debug/resources-debugFeature.ap_/AndroidManifest.xml
+2.base=/Users/zhangyu/OpenProjects/hello-feature-module/features/bye/build/intermediates/res/feature/debug/resources-debugFeature.ap_
+3.set=DEX
+2.set=ANDROID_RESOURCE
+2.file=/Users/zhangyu/OpenProjects/hello-feature-module/features/bye/build/intermediates/res/feature/debug/resources-debugFeature.ap_/resources.arsc
 count=4
 1.set=ANDROID_RESOURCE
-3.base=/Users/zhangyu/OpenProjects/android-instant-apps/hello-feature-module/features/bye/build/intermediates/res/feature/debug/resources-debugFeature.ap_
+3.base=/Users/zhangyu/OpenProjects/hello-feature-module/features/bye/build/intermediates/transforms/dexMerger/feature/debug/0
 0.set=ANDROID_RESOURCE
-0.base=/Users/zhangyu/OpenProjects/android-instant-apps/hello-feature-module/features/bye/build/intermediates/res/feature/debug/resources-debugFeature.ap_
-3.file=/Users/zhangyu/OpenProjects/android-instant-apps/hello-feature-module/features/bye/build/intermediates/res/feature/debug/resources-debugFeature.ap_/resources.arsc
-0.file=/Users/zhangyu/OpenProjects/android-instant-apps/hello-feature-module/features/bye/build/intermediates/res/feature/debug/resources-debugFeature.ap_/AndroidManifest.xml
+0.base=/Users/zhangyu/OpenProjects/hello-feature-module/features/bye/build/intermediates/res/feature/debug/resources-debugFeature.ap_
+3.file=/Users/zhangyu/OpenProjects/hello-feature-module/features/bye/build/intermediates/transforms/dexMerger/feature/debug/0/classes.dex
+0.file=/Users/zhangyu/OpenProjects/hello-feature-module/features/bye/build/intermediates/res/feature/debug/resources-debugFeature.ap_/res/layout/activity_goodbye.xml

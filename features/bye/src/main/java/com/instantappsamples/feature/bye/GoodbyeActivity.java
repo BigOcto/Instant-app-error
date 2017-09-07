@@ -18,8 +18,12 @@ package com.instantappsamples.feature.bye;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.util.Log;
+import android.view.LayoutInflater;
+import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.instantappsamples.base.DebugBaseHelp;
 
@@ -30,10 +34,24 @@ public class GoodbyeActivity extends AppCompatActivity {
   @Override
   protected void onCreate(Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);
-    setContentView(R.layout.activity_goodbye);
+    int id = getResources().getIdentifier("activity_goodbye","layout",getApplication().getPackageName());
+    Toast.makeText(this,String.valueOf(id),Toast.LENGTH_LONG).show();
+    Log.e("getResource","layout getResource result id : " + id);
+//    setContentView(R.layout.activity_goodbye);
+//    setContentView(id);
+    LayoutInflater inflate = LayoutInflater.from(this);
+    View view = inflate.inflate(id,null);
+    setContentView(view);
+
+    /*Using 'findViewById' get View */
+    int goodbye_text2_id = getResources().getIdentifier("goodbye_text2","id",this.getPackageName());
+    Log.e("getResource","textView getResource result id : " + goodbye_text2_id);
+    TextView goodbye_text2 = (TextView) view.findViewById(goodbye_text2_id);
+    goodbye_text2.setText("textView getResource with getIdentifier");
+
     /* base library drawable*/
     ImageView imageView_library = (ImageView) findViewById(R.id.goodbye_img_left);
-    imageView_library.setBackgroundResource(R.drawable.rockect_create);
+    imageView_library.setBackgroundResource(com.google.android.instantapps.samples.feature.base.R.drawable.rockect_create);
 
     /* base library function*/
     DebugBaseHelp baseHelp = new DebugBaseHelp();
@@ -41,10 +59,12 @@ public class GoodbyeActivity extends AppCompatActivity {
 
     /* base module drawable*/
     ImageView imageView_base = (ImageView) findViewById(R.id.goodbye_img_right);
-    imageView_base.setBackgroundResource(R.drawable.my_main_news);
+    imageView_base.setBackgroundResource(com.google.android.instantapps.samples.feature.base.R.drawable.my_main_news);
 
     /* base module string value*/
     TextView textView = (TextView) findViewById(R.id.goodbye_text2);
-    textView.setText(R.string.hello_base_module);
+    textView.setText(com.google.android.instantapps.samples.feature.base.R.string.hello_base_module);
+
+
   }
 }

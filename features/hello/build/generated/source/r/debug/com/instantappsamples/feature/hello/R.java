@@ -535,20 +535,21 @@ public final class R {
         public static int abc_textfield_search_material = 0x7f090052;
         public static int abc_vector_test = 0x7f090053;
         public static int custom_dialog_bg = 0x7f090054;
-        public static int notification_action_background = 0x7f090055;
-        public static int notification_bg = 0x7f090056;
-        public static int notification_bg_low = 0x7f090057;
-        public static int notification_bg_low_normal = 0x7f090058;
-        public static int notification_bg_low_pressed = 0x7f090059;
-        public static int notification_bg_normal = 0x7f09005a;
-        public static int notification_bg_normal_pressed = 0x7f09005b;
-        public static int notification_icon_background = 0x7f09005c;
-        public static int notification_template_icon_bg = 0x7f09005d;
-        public static int notification_template_icon_low_bg = 0x7f09005e;
-        public static int notification_tile_bg = 0x7f09005f;
-        public static int notify_panel_notification_icon_bg = 0x7f090060;
-        public static int rockect_create = 0x7f090061;
-        public static int shape_cornor_circle = 0x7f090062;
+        public static int my_main_news = 0x7f090055;
+        public static int notification_action_background = 0x7f090056;
+        public static int notification_bg = 0x7f090057;
+        public static int notification_bg_low = 0x7f090058;
+        public static int notification_bg_low_normal = 0x7f090059;
+        public static int notification_bg_low_pressed = 0x7f09005a;
+        public static int notification_bg_normal = 0x7f09005b;
+        public static int notification_bg_normal_pressed = 0x7f09005c;
+        public static int notification_icon_background = 0x7f09005d;
+        public static int notification_template_icon_bg = 0x7f09005e;
+        public static int notification_template_icon_low_bg = 0x7f09005f;
+        public static int notification_tile_bg = 0x7f090060;
+        public static int notify_panel_notification_icon_bg = 0x7f090061;
+        public static int rockect_create = 0x7f090062;
+        public static int shape_cornor_circle = 0x7f090063;
     }
     public static final class id {
         public static int action0 = 0x7f0c0001;
@@ -723,7 +724,6 @@ public final class R {
     }
     public static final class mipmap {
         public static int ic_launcher = 0x7f110001;
-        public static int my_main_news = 0x7f110002;
     }
     public static final class string {
         public static int abc_action_bar_home_description = 0x7f150001;
@@ -1126,7 +1126,8 @@ public final class R {
         public static int Widget_AppCompat_Toolbar = 0x7f160160;
         public static int Widget_AppCompat_Toolbar_Button_Navigation = 0x7f160161;
         public static int custom_dialog_style = 0x7f160162;
-        public static int top_title_item = 0x7f160163;
+        public static int phone_download_bottom_ad_popup = 0x7f160163;
+        public static int top_title_item = 0x7f160164;
     }
     public static final class styleable {
         public static int[] ActionBar = { 0x7f04002c, 0x7f04002d, 0x7f04002e, 0x7f04004f, 0x7f040050, 0x7f040051, 0x7f040052, 0x7f040053, 0x7f040054, 0x7f040056, 0x7f04005a, 0x7f04005b, 0x7f040066, 0x7f04006a, 0x7f04006b, 0x7f04006c, 0x7f04006d, 0x7f04006e, 0x7f040071, 0x7f040074, 0x7f040081, 0x7f040088, 0x7f040092, 0x7f040095, 0x7f040096, 0x7f0400b0, 0x7f0400b3, 0x7f0400cb, 0x7f0400d4 };

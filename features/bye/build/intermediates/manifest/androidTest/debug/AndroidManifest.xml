@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.instantappsamples.feature.bye.test" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="26" />
+
+    <instrumentation
+        android:name="android.test.InstrumentationTestRunner"
+        android:functionalTest="false"
+        android:handleProfiling="false"
+        android:label="Tests for com.instantappsamples.feature.bye.test"
+        android:targetPackage="com.instantappsamples.feature.bye.test" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <meta-data
+        android:name="android.support.VERSION"
+        android:value="25.3.1" />
+
+    <application
+        android:name="com.instantappsamples.base.InstantApplication"
+        android:allowBackup="true"
+        android:debuggable="true"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <uses-library android:name="android.test.runner" />
+
+        <meta-data
+            android:name="asset_statements"
+            android:resource="@string/asset_statements" />
+
+        <activity
+            android:name="com.instantappsamples.feature.bye.GoodbyeActivity"
+            android:label="@string/title_activity_goodbye"
+            android:theme="@style/AppTheme" >
+            <meta-data
+                android:name="default-url"
+                android:value="https://hello-feature.instantappsample.com/bye" />
+
+            <intent-filter
+                android:autoVerify="true"
+                android:order="1" >
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="hello-feature.instantappsample.com"
+                    android:pathPrefix="/goodbye"
+                    android:scheme="https" />
+            </intent-filter>
+            <intent-filter android:order="1" >
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="hello-feature.instantappsample.com"
+                    android:pathPrefix="/goodbye"
+                    android:scheme="http" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

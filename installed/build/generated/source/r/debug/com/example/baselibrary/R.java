@@ -15,13 +15,13 @@ public final class R {
     }
     public static final class drawable {
         public static final int custom_dialog_bg = 0x7f060053;
-        public static final int rockect_create = 0x7f060060;
-        public static final int shape_cornor_circle = 0x7f060061;
+        public static final int rockect_create = 0x7f060061;
+        public static final int shape_cornor_circle = 0x7f060062;
     }
     public static final class id {
-        public static final int wifi_5g_create_button = 0x7f07006f;
-        public static final int wifi_5g_dialog_summary = 0x7f070070;
-        public static final int wifi_5g_dialog_title = 0x7f070071;
+        public static final int wifi_5g_create_button = 0x7f070070;
+        public static final int wifi_5g_dialog_summary = 0x7f070071;
+        public static final int wifi_5g_dialog_title = 0x7f070072;
     }
     public static final class layout {
         public static final int build_5g_wifi_dialog_view = 0x7f09001d;
@@ -34,6 +34,6 @@ public final class R {
     public static final class style {
         public static final int TipsHintText = 0x7f0c0116;
         public static final int custom_dialog_style = 0x7f0c0161;
-        public static final int top_title_item = 0x7f0c0162;
+        public static final int top_title_item = 0x7f0c0163;
     }
 }

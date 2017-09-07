@@ -24,8 +24,8 @@
     </style>
 
     <style name="phone_download_bottom_ad_popup">
-        <item name="@android:windowEnterAnimation">@anim/ad_slide_in_bottom</item>
-        <item name="@android:windowExitAnimation">@anim/ad_slide_out_bottom</item>
+        <!--<item name="@android:windowEnterAnimation">@anim/ad_slide_in_bottom</item>-->
+        <!--<item name="@android:windowExitAnimation">@anim/ad_slide_out_bottom</item>-->
     </style>
 
 </resources>
