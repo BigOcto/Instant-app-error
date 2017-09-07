@@ -20,6 +20,7 @@ import android.content.Context;
 import android.content.pm.PackageManager;
 import android.os.Bundle;
 import android.os.Process;
+import android.support.annotation.NonNull;
 import android.support.v4.app.ActivityCompat;
 import android.support.v4.content.ContextCompat;
 import android.support.v4.content.PermissionChecker;
@@ -39,23 +40,29 @@ public class GoodbyeActivity extends AppCompatActivity {
   public static final String PERMISSION_READ_PHONE_STATE = "android.permission.READ_PHONE_STATE";
   public static final int PERMISSION_ID_READ_PHONE_STATE = 0;
 
+  public static final String PERMISSION_WRITE_EXTERNAL_STORAGE = "android.permission.WRITE_EXTERNAL_STORAGE";
+  public static final int PERMISSION_ID_WRITE_EXTERNAL_STORAGE = 2;
+
+  public static final String PERMISSION_ACCESS_FINE_LOCATION = "android.permission.ACCESS_FINE_LOCATION";
+  public static final int PERMISSION_ID_ACCESS_FINE_LOCATION = 1;
+
   @Override
   protected void onCreate(Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);
     int id = getResources().getIdentifier("activity_goodbye","layout",getApplication().getPackageName());
     Toast.makeText(this,String.valueOf(id),Toast.LENGTH_LONG).show();
     Log.e("getResource","layout getResource result id : " + id);
-    setContentView(R.layout.activity_goodbye);
+//    setContentView(R.layout.activity_goodbye);
 //    setContentView(id);
-//    LayoutInflater inflate = LayoutInflater.from(this);
-//    View view = inflate.inflate(id,null);
-//    setContentView(view);
-//
-//    /*Using 'findViewById' get View */
-//    int goodbye_text2_id = getResources().getIdentifier("goodbye_text2","id",this.getPackageName());
-//    Log.e("getResource","textView getResource result id : " + goodbye_text2_id);
-//    TextView goodbye_text2 = (TextView) view.findViewById(goodbye_text2_id);
-//    goodbye_text2.setText("textView getResource with getIdentifier");
+    LayoutInflater inflate = LayoutInflater.from(this);
+    View view = inflate.inflate(id,null);
+    setContentView(view);
+
+    /*Using 'findViewById' get View */
+    int goodbye_text2_id = getResources().getIdentifier("goodbye_text2","id",this.getPackageName());
+    Log.e("getResource","textView getResource result id : " + goodbye_text2_id);
+    TextView goodbye_text2 = (TextView) view.findViewById(goodbye_text2_id);
+    goodbye_text2.setText("textView getResource with getIdentifier");
 
     /* base library drawable*/
     ImageView imageView_library = (ImageView) findViewById(R.id.goodbye_img_left);
@@ -75,15 +82,18 @@ public class GoodbyeActivity extends AppCompatActivity {
 
 
     /*Request permission*/
-    checkPermission(PERMISSION_READ_PHONE_STATE,PERMISSION_ID_READ_PHONE_STATE);
+//    checkPermission(PERMISSION_READ_PHONE_STATE,PERMISSION_ID_READ_PHONE_STATE);
+    checkPermission(PERMISSION_WRITE_EXTERNAL_STORAGE,PERMISSION_ID_WRITE_EXTERNAL_STORAGE);
   }
 
 
 
   @Override
-  public void onRequestPermissionsResult(int requestCode, String[] permissions, int[] grantResults) {
-    boolean isGranted = grantResults[0] == PackageManager.PERMISSION_GRANTED;
-    Log.d("Permission", "onRequestPermissionsResult : " + isGranted);
+  public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults) {
+    if (grantResults.length > 0){
+      boolean isGranted = grantResults[0] == PackageManager.PERMISSION_GRANTED;
+      Log.d("Permission", "onRequestPermissionsResult : " + isGranted);
+    }
   }
 
 

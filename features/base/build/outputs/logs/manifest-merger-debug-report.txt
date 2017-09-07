@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/zhangyu/OpenProjects/hello-feature-module/features/base/src/main/AndroidManifest.xml:17:1-33:12
-INJECTED from /Users/zhangyu/OpenProjects/hello-feature-module/features/base/src/main/AndroidManifest.xml:17:1-33:12
-INJECTED from /Users/zhangyu/OpenProjects/hello-feature-module/features/base/src/main/AndroidManifest.xml:17:1-33:12
-INJECTED from /Users/zhangyu/OpenProjects/hello-feature-module/features/base/src/main/AndroidManifest.xml:17:1-33:12
+ADDED from /Users/zhangyu/OpenProjects/hello-feature-module/features/base/src/main/AndroidManifest.xml:17:1-36:12
+INJECTED from /Users/zhangyu/OpenProjects/hello-feature-module/features/base/src/main/AndroidManifest.xml:17:1-36:12
+INJECTED from /Users/zhangyu/OpenProjects/hello-feature-module/features/base/src/main/AndroidManifest.xml:17:1-36:12
+INJECTED from /Users/zhangyu/OpenProjects/hello-feature-module/features/base/src/main/AndroidManifest.xml:17:1-36:12
 MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/zhangyu/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/c4ad1d280de76d3a9eaec17ef13c3114/AndroidManifest.xml:17:1-31:12
 MERGED from [:baselibrary] /Users/zhangyu/OpenProjects/hello-feature-module/baselibrary/build/intermediates/manifests/full/debug/AndroidManifest.xml:2:1-11:12
 MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/zhangyu/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.3.1.aar/50cb383ddf8a7d980b899049235a9163/AndroidManifest.xml:17:1-28:12
@@ -15,20 +15,20 @@ MERGED from [com.android.support:support-core-utils:25.3.1] /Users/zhangyu/.grad
 MERGED from [com.android.support:support-core-ui:25.3.1] /Users/zhangyu/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.3.1.aar/261cc596f843581e78da0f8f82347347/AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:support-compat:25.3.1] /Users/zhangyu/.gradle/caches/transforms-1/files-1.1/support-compat-25.3.1.aar/806fd76d4711f9589d606fb5dfd0c4a2/AndroidManifest.xml:17:1-31:12
 MERGED from [:features:bye] /Users/zhangyu/OpenProjects/hello-feature-module/features/bye/build/intermediates/manifests/full/feature/debug/AndroidManifest.xml:17:1-71:12
-INJECTED from /Users/zhangyu/OpenProjects/hello-feature-module/features/base/src/main/AndroidManifest.xml:17:1-33:12
-INJECTED from /Users/zhangyu/OpenProjects/hello-feature-module/features/base/src/main/AndroidManifest.xml:17:1-33:12
-INJECTED from /Users/zhangyu/OpenProjects/hello-feature-module/features/base/src/main/AndroidManifest.xml:17:1-33:12
+INJECTED from /Users/zhangyu/OpenProjects/hello-feature-module/features/base/src/main/AndroidManifest.xml:17:1-36:12
+INJECTED from /Users/zhangyu/OpenProjects/hello-feature-module/features/base/src/main/AndroidManifest.xml:17:1-36:12
+INJECTED from /Users/zhangyu/OpenProjects/hello-feature-module/features/base/src/main/AndroidManifest.xml:17:1-36:12
 	package
 		ADDED from /Users/zhangyu/OpenProjects/hello-feature-module/features/base/src/main/AndroidManifest.xml:18:11-72
 		INJECTED from /Users/zhangyu/OpenProjects/hello-feature-module/features/base/src/main/AndroidManifest.xml
 		INJECTED from /Users/zhangyu/OpenProjects/hello-feature-module/features/base/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /Users/zhangyu/OpenProjects/hello-feature-module/features/base/src/main/AndroidManifest.xml
-		ADDED from /Users/zhangyu/OpenProjects/hello-feature-module/features/base/src/main/AndroidManifest.xml:17:1-33:12
+		ADDED from /Users/zhangyu/OpenProjects/hello-feature-module/features/base/src/main/AndroidManifest.xml:17:1-36:12
 		INJECTED from /Users/zhangyu/OpenProjects/hello-feature-module/features/base/src/main/AndroidManifest.xml
 	android:versionCode
 		INJECTED from /Users/zhangyu/OpenProjects/hello-feature-module/features/base/src/main/AndroidManifest.xml
-		ADDED from /Users/zhangyu/OpenProjects/hello-feature-module/features/base/src/main/AndroidManifest.xml:17:1-33:12
+		ADDED from /Users/zhangyu/OpenProjects/hello-feature-module/features/base/src/main/AndroidManifest.xml:17:1-36:12
 		INJECTED from /Users/zhangyu/OpenProjects/hello-feature-module/features/base/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /Users/zhangyu/OpenProjects/hello-feature-module/features/base/src/main/AndroidManifest.xml:17:11-69
@@ -36,8 +36,20 @@ uses-permission#android.permission.INTERNET
 ADDED from /Users/zhangyu/OpenProjects/hello-feature-module/features/base/src/main/AndroidManifest.xml:20:5-67
 	android:name
 		ADDED from /Users/zhangyu/OpenProjects/hello-feature-module/features/base/src/main/AndroidManifest.xml:20:22-64
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from /Users/zhangyu/OpenProjects/hello-feature-module/features/base/src/main/AndroidManifest.xml:21:5-75
+	android:name
+		ADDED from /Users/zhangyu/OpenProjects/hello-feature-module/features/base/src/main/AndroidManifest.xml:21:22-72
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/zhangyu/OpenProjects/hello-feature-module/features/base/src/main/AndroidManifest.xml:22:5-81
+	android:name
+		ADDED from /Users/zhangyu/OpenProjects/hello-feature-module/features/base/src/main/AndroidManifest.xml:22:22-78
+uses-permission-sdk-23#android.permission.ACCESS_FINE_LOCATION
+ADDED from /Users/zhangyu/OpenProjects/hello-feature-module/features/base/src/main/AndroidManifest.xml:23:5-86
+	android:name
+		ADDED from /Users/zhangyu/OpenProjects/hello-feature-module/features/base/src/main/AndroidManifest.xml:23:29-83
 application
-ADDED from /Users/zhangyu/OpenProjects/hello-feature-module/features/base/src/main/AndroidManifest.xml:22:5-31:19
+ADDED from /Users/zhangyu/OpenProjects/hello-feature-module/features/base/src/main/AndroidManifest.xml:25:5-34:19
 MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/zhangyu/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/c4ad1d280de76d3a9eaec17ef13c3114/AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/zhangyu/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/c4ad1d280de76d3a9eaec17ef13c3114/AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/zhangyu/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.3.1.aar/50cb383ddf8a7d980b899049235a9163/AndroidManifest.xml:26:5-20
@@ -59,27 +71,27 @@ MERGED from [com.android.support:support-compat:25.3.1] /Users/zhangyu/.gradle/c
 MERGED from [:features:bye] /Users/zhangyu/OpenProjects/hello-feature-module/features/bye/build/intermediates/manifests/full/feature/debug/AndroidManifest.xml:28:5-69:19
 MERGED from [:features:bye] /Users/zhangyu/OpenProjects/hello-feature-module/features/bye/build/intermediates/manifests/full/feature/debug/AndroidManifest.xml:28:5-69:19
 	android:supportsRtl
-		ADDED from /Users/zhangyu/OpenProjects/hello-feature-module/features/base/src/main/AndroidManifest.xml:27:13-39
+		ADDED from /Users/zhangyu/OpenProjects/hello-feature-module/features/base/src/main/AndroidManifest.xml:30:13-39
 	android:label
-		ADDED from /Users/zhangyu/OpenProjects/hello-feature-module/features/base/src/main/AndroidManifest.xml:25:13-45
+		ADDED from /Users/zhangyu/OpenProjects/hello-feature-module/features/base/src/main/AndroidManifest.xml:28:13-45
 	android:debuggable
 		ADDED from [:features:bye] /Users/zhangyu/OpenProjects/hello-feature-module/features/bye/build/intermediates/manifests/full/feature/debug/AndroidManifest.xml:29:9-34
 	android:testOnly
 		ADDED from [:features:bye] /Users/zhangyu/OpenProjects/hello-feature-module/features/bye/build/intermediates/manifests/full/feature/debug/AndroidManifest.xml:30:9-32
 	android:allowBackup
-		ADDED from /Users/zhangyu/OpenProjects/hello-feature-module/features/base/src/main/AndroidManifest.xml:24:13-39
+		ADDED from /Users/zhangyu/OpenProjects/hello-feature-module/features/base/src/main/AndroidManifest.xml:27:13-39
 	android:theme
-		ADDED from /Users/zhangyu/OpenProjects/hello-feature-module/features/base/src/main/AndroidManifest.xml:26:13-44
+		ADDED from /Users/zhangyu/OpenProjects/hello-feature-module/features/base/src/main/AndroidManifest.xml:29:13-44
 	android:name
-		ADDED from /Users/zhangyu/OpenProjects/hello-feature-module/features/base/src/main/AndroidManifest.xml:23:13-73
+		ADDED from /Users/zhangyu/OpenProjects/hello-feature-module/features/base/src/main/AndroidManifest.xml:26:13-73
 meta-data#asset_statements
-ADDED from /Users/zhangyu/OpenProjects/hello-feature-module/features/base/src/main/AndroidManifest.xml:28:9-30:59
+ADDED from /Users/zhangyu/OpenProjects/hello-feature-module/features/base/src/main/AndroidManifest.xml:31:9-33:59
 MERGED from [:features:bye] /Users/zhangyu/OpenProjects/hello-feature-module/features/bye/build/intermediates/manifests/full/feature/debug/AndroidManifest.xml:31:9-33:59
 MERGED from [:features:bye] /Users/zhangyu/OpenProjects/hello-feature-module/features/bye/build/intermediates/manifests/full/feature/debug/AndroidManifest.xml:31:9-33:59
 	android:resource
-		ADDED from /Users/zhangyu/OpenProjects/hello-feature-module/features/base/src/main/AndroidManifest.xml:30:13-56
+		ADDED from /Users/zhangyu/OpenProjects/hello-feature-module/features/base/src/main/AndroidManifest.xml:33:13-56
 	android:name
-		ADDED from /Users/zhangyu/OpenProjects/hello-feature-module/features/base/src/main/AndroidManifest.xml:29:13-44
+		ADDED from /Users/zhangyu/OpenProjects/hello-feature-module/features/base/src/main/AndroidManifest.xml:32:13-44
 uses-sdk
 INJECTED from /Users/zhangyu/OpenProjects/hello-feature-module/features/base/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/zhangyu/OpenProjects/hello-feature-module/features/base/src/main/AndroidManifest.xml

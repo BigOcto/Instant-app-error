@@ -23,8 +23,6 @@
         android:minSdkVersion="15"
         android:targetSdkVersion="26" />
 
-    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
-
     <application>
         <meta-data
             android:name="asset_statements"
