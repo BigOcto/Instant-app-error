@@ -70,12 +70,12 @@ public class HelloActivity extends AppCompatActivity {
 
         findViewById(R.id.image).setBackgroundResource(R.drawable.rockect_create);
 
-        showBuild5gWifiDialog(this, new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-
-            }
-        },"hello world");
+//        showBuild5gWifiDialog(this, new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+//
+//            }
+//        },"hello world");
 
 //        int id = getResources().getIdentifier("activity_goodbye","layout",getApplication().getPackageName());
 //        Toast.makeText(this,String.valueOf(id),Toast.LENGTH_LONG).show();
@@ -83,32 +83,32 @@ public class HelloActivity extends AppCompatActivity {
     }
 
 
-    public void showBuild5gWifiDialog(final Activity activity, View.OnClickListener onClickListener, String dialogTag) {
-        if (mCommonDialog == null) {
-            mCommonDialog = new Dialog(activity, R.style.custom_dialog_style);
-        }
-        this.dialogTag = dialogTag;
-        mCommonDialog.setCanceledOnTouchOutside(true);
-        mCommonDialog.setCancelable(true);
-        mCommonDialog.show();
-        mCommonDialog.setContentView(R.layout.build_5g_wifi_dialog_view);
-        TextView titleView = (TextView) mCommonDialog.findViewById(R.id.wifi_5g_dialog_title);
-        TextView create5gButton = (TextView) mCommonDialog.findViewById(R.id.wifi_5g_create_button);
-        String title = activity.getString(R.string.build_5g_wifi_title);
-        title = activity.getString(R.string.hello_base_module);
-        SpannableString sp = new SpannableString(title);
-        ForegroundColorSpan span = new ForegroundColorSpan(0Xffff8533);
-        sp.setSpan(span, title.length()-2, title.length(), Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
-        titleView.setText(sp);
-        titleView.setAllCaps(false);
-        create5gButton.setOnClickListener(onClickListener);
-        WindowManager.LayoutParams params = mCommonDialog.getWindow()
-                .getAttributes();
-        DisplayMetrics dm = activity.getResources().getDisplayMetrics();
-        params.width = dm.widthPixels - 50 * 2;
-        params.x = 0; // 新位置X坐标
-        params.y = -100; // 新位置Y坐标
-        mCommonDialog.getWindow().setAttributes(params);
-
-    }
+//    public void showBuild5gWifiDialog(final Activity activity, View.OnClickListener onClickListener, String dialogTag) {
+//        if (mCommonDialog == null) {
+//            mCommonDialog = new Dialog(activity, R.style.custom_dialog_style);
+//        }
+//        this.dialogTag = dialogTag;
+//        mCommonDialog.setCanceledOnTouchOutside(true);
+//        mCommonDialog.setCancelable(true);
+//        mCommonDialog.show();
+//        mCommonDialog.setContentView(R.layout.build_5g_wifi_dialog_view);
+//        TextView titleView = (TextView) mCommonDialog.findViewById(R.id.wifi_5g_dialog_title);
+//        TextView create5gButton = (TextView) mCommonDialog.findViewById(R.id.wifi_5g_create_button);
+//        String title = activity.getString(R.string.build_5g_wifi_title);
+//        title = activity.getString(R.string.hello_base_module);
+//        SpannableString sp = new SpannableString(title);
+//        ForegroundColorSpan span = new ForegroundColorSpan(0Xffff8533);
+//        sp.setSpan(span, title.length()-2, title.length(), Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
+//        titleView.setText(sp);
+//        titleView.setAllCaps(false);
+//        create5gButton.setOnClickListener(onClickListener);
+//        WindowManager.LayoutParams params = mCommonDialog.getWindow()
+//                .getAttributes();
+//        DisplayMetrics dm = activity.getResources().getDisplayMetrics();
+//        params.width = dm.widthPixels - 50 * 2;
+//        params.x = 0; // 新位置X坐标
+//        params.y = -100; // 新位置Y坐标
+//        mCommonDialog.getWindow().setAttributes(params);
+//
+//    }
 }

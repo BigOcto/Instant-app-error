@@ -14,6 +14,10 @@
         android:targetPackage="com.google.android.instantapps.samples.feature.base.test" />
 
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <uses-permission-sdk-23 android:name="android.permission.ACCESS_FINE_LOCATION" />
 
     <meta-data
         android:name="android.support.VERSION"

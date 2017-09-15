@@ -1,4 +1,4 @@
-#Thu Sep 07 16:22:48 CST 2017
-base.0=/Users/zhangyu/OpenProjects/hello-feature-module/installed/build/intermediates/transforms/dexMerger/debug/0
+#Fri Sep 15 10:00:06 CST 2017
+base.0=/Users/zhangyu/OpenProjects/Instant-app-error/installed/build/intermediates/transforms/dexMerger/debug/0
 renamed.0=classes.dex
-file.0=/Users/zhangyu/OpenProjects/hello-feature-module/installed/build/intermediates/transforms/dexMerger/debug/0/classes.dex
+file.0=/Users/zhangyu/OpenProjects/Instant-app-error/installed/build/intermediates/transforms/dexMerger/debug/0/classes.dex

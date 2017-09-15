@@ -1,6 +1,22 @@
 {
     "logs": [
         {
+            "outputFile": "/Users/zhangyu/OpenProjects/Instant-app-error/installed/build/intermediates/incremental/mergeDebugResources/merged.dir/values-hdpi-v4/values-hdpi-v4.xml",
+            "map": [
+                {
+                    "source": "/Users/zhangyu/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/c4ad1d280de76d3a9eaec17ef13c3114/res/values-hdpi-v4/values-hdpi-v4.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "6",
+                        "endColumns": "13",
+                        "endOffsets": "327"
+                    }
+                }
+            ]
+        },
+        {
             "outputFile": "/Users/zhangyu/OpenProjects/hello-feature-module/installed/build/intermediates/incremental/mergeDebugResources/merged.dir/values-hdpi-v4/values-hdpi-v4.xml",
             "map": [
                 {

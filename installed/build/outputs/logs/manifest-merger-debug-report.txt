@@ -1,14 +1,14 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/zhangyu/OpenProjects/hello-feature-module/installed/src/main/AndroidManifest.xml:17:1-19:74
-INJECTED from /Users/zhangyu/OpenProjects/hello-feature-module/installed/src/main/AndroidManifest.xml:17:1-19:74
-INJECTED from /Users/zhangyu/OpenProjects/hello-feature-module/installed/src/main/AndroidManifest.xml:17:1-19:74
-INJECTED from /Users/zhangyu/OpenProjects/hello-feature-module/installed/src/main/AndroidManifest.xml:17:1-19:74
-MERGED from [:features:hello] /Users/zhangyu/OpenProjects/hello-feature-module/features/hello/build/intermediates/manifests/full/debug/AndroidManifest.xml:17:1-67:12
-MERGED from [:features:bye] /Users/zhangyu/OpenProjects/hello-feature-module/features/bye/build/intermediates/manifests/full/debug/AndroidManifest.xml:17:1-66:12
+ADDED from /Users/zhangyu/OpenProjects/Instant-app-error/installed/src/main/AndroidManifest.xml:17:1-19:74
+INJECTED from /Users/zhangyu/OpenProjects/Instant-app-error/installed/src/main/AndroidManifest.xml:17:1-19:74
+INJECTED from /Users/zhangyu/OpenProjects/Instant-app-error/installed/src/main/AndroidManifest.xml:17:1-19:74
+INJECTED from /Users/zhangyu/OpenProjects/Instant-app-error/installed/src/main/AndroidManifest.xml:17:1-19:74
+MERGED from [:features:hello] /Users/zhangyu/OpenProjects/Instant-app-error/features/hello/build/intermediates/manifests/full/debug/AndroidManifest.xml:17:1-67:12
+MERGED from [:features:bye] /Users/zhangyu/OpenProjects/Instant-app-error/features/bye/build/intermediates/manifests/full/debug/AndroidManifest.xml:17:1-66:12
 MERGED from [com.google.android.instantapps:instantapps:1.0.0] /Users/zhangyu/.gradle/caches/transforms-1/files-1.1/instantapps-1.0.0.aar/357b87ccd5421d0b6b52bb0f3a489ffa/AndroidManifest.xml:2:1-7:12
-MERGED from [:features:base] /Users/zhangyu/OpenProjects/hello-feature-module/features/base/build/intermediates/manifests/full/debug/AndroidManifest.xml:17:1-43:12
-MERGED from [:baselibrary] /Users/zhangyu/OpenProjects/hello-feature-module/baselibrary/build/intermediates/manifests/full/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:features:base] /Users/zhangyu/OpenProjects/Instant-app-error/features/base/build/intermediates/manifests/full/debug/AndroidManifest.xml:17:1-43:12
+MERGED from [:baselibrary] /Users/zhangyu/OpenProjects/Instant-app-error/baselibrary/build/intermediates/manifests/full/debug/AndroidManifest.xml:2:1-11:12
 MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/zhangyu/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/c4ad1d280de76d3a9eaec17ef13c3114/AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/zhangyu/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.3.1.aar/50cb383ddf8a7d980b899049235a9163/AndroidManifest.xml:17:1-28:12
 MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/zhangyu/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.3.1.aar/9c635ac105b3afa24c1a67a4d609ffa8/AndroidManifest.xml:17:1-28:12
@@ -18,39 +18,39 @@ MERGED from [com.android.support:support-media-compat:25.3.1] /Users/zhangyu/.gr
 MERGED from [com.android.support:support-core-utils:25.3.1] /Users/zhangyu/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.3.1.aar/cb861e3783fd5b2a6e2b3c02d0fbe034/AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:support-core-ui:25.3.1] /Users/zhangyu/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.3.1.aar/261cc596f843581e78da0f8f82347347/AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:support-compat:25.3.1] /Users/zhangyu/.gradle/caches/transforms-1/files-1.1/support-compat-25.3.1.aar/806fd76d4711f9589d606fb5dfd0c4a2/AndroidManifest.xml:17:1-31:12
-INJECTED from /Users/zhangyu/OpenProjects/hello-feature-module/installed/src/main/AndroidManifest.xml:17:1-19:74
-INJECTED from /Users/zhangyu/OpenProjects/hello-feature-module/installed/src/main/AndroidManifest.xml:17:1-19:74
-INJECTED from /Users/zhangyu/OpenProjects/hello-feature-module/installed/src/main/AndroidManifest.xml:17:1-19:74
+INJECTED from /Users/zhangyu/OpenProjects/Instant-app-error/installed/src/main/AndroidManifest.xml:17:1-19:74
+INJECTED from /Users/zhangyu/OpenProjects/Instant-app-error/installed/src/main/AndroidManifest.xml:17:1-19:74
+INJECTED from /Users/zhangyu/OpenProjects/Instant-app-error/installed/src/main/AndroidManifest.xml:17:1-19:74
 	package
-		ADDED from /Users/zhangyu/OpenProjects/hello-feature-module/installed/src/main/AndroidManifest.xml:19:11-71
-		INJECTED from /Users/zhangyu/OpenProjects/hello-feature-module/installed/src/main/AndroidManifest.xml
-		INJECTED from /Users/zhangyu/OpenProjects/hello-feature-module/installed/src/main/AndroidManifest.xml
+		ADDED from /Users/zhangyu/OpenProjects/Instant-app-error/installed/src/main/AndroidManifest.xml:19:11-71
+		INJECTED from /Users/zhangyu/OpenProjects/Instant-app-error/installed/src/main/AndroidManifest.xml
+		INJECTED from /Users/zhangyu/OpenProjects/Instant-app-error/installed/src/main/AndroidManifest.xml
 	android:versionName
-		INJECTED from /Users/zhangyu/OpenProjects/hello-feature-module/installed/src/main/AndroidManifest.xml
-		ADDED from /Users/zhangyu/OpenProjects/hello-feature-module/installed/src/main/AndroidManifest.xml:17:1-19:74
-		INJECTED from /Users/zhangyu/OpenProjects/hello-feature-module/installed/src/main/AndroidManifest.xml
+		INJECTED from /Users/zhangyu/OpenProjects/Instant-app-error/installed/src/main/AndroidManifest.xml
+		ADDED from /Users/zhangyu/OpenProjects/Instant-app-error/installed/src/main/AndroidManifest.xml:17:1-19:74
+		INJECTED from /Users/zhangyu/OpenProjects/Instant-app-error/installed/src/main/AndroidManifest.xml
 	android:versionCode
-		INJECTED from /Users/zhangyu/OpenProjects/hello-feature-module/installed/src/main/AndroidManifest.xml
-		ADDED from /Users/zhangyu/OpenProjects/hello-feature-module/installed/src/main/AndroidManifest.xml:17:1-19:74
-		INJECTED from /Users/zhangyu/OpenProjects/hello-feature-module/installed/src/main/AndroidManifest.xml
+		INJECTED from /Users/zhangyu/OpenProjects/Instant-app-error/installed/src/main/AndroidManifest.xml
+		ADDED from /Users/zhangyu/OpenProjects/Instant-app-error/installed/src/main/AndroidManifest.xml:17:1-19:74
+		INJECTED from /Users/zhangyu/OpenProjects/Instant-app-error/installed/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from /Users/zhangyu/OpenProjects/hello-feature-module/installed/src/main/AndroidManifest.xml:17:11-69
+		ADDED from /Users/zhangyu/OpenProjects/Instant-app-error/installed/src/main/AndroidManifest.xml:17:11-69
 	xmlns:instant
-		ADDED from /Users/zhangyu/OpenProjects/hello-feature-module/installed/src/main/AndroidManifest.xml:18:11-65
+		ADDED from /Users/zhangyu/OpenProjects/Instant-app-error/installed/src/main/AndroidManifest.xml:18:11-65
 uses-sdk
-INJECTED from /Users/zhangyu/OpenProjects/hello-feature-module/installed/src/main/AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from /Users/zhangyu/OpenProjects/hello-feature-module/installed/src/main/AndroidManifest.xml
-INJECTED from /Users/zhangyu/OpenProjects/hello-feature-module/installed/src/main/AndroidManifest.xml
-MERGED from [:features:hello] /Users/zhangyu/OpenProjects/hello-feature-module/features/hello/build/intermediates/manifests/full/debug/AndroidManifest.xml:22:5-24:41
-MERGED from [:features:hello] /Users/zhangyu/OpenProjects/hello-feature-module/features/hello/build/intermediates/manifests/full/debug/AndroidManifest.xml:22:5-24:41
-MERGED from [:features:bye] /Users/zhangyu/OpenProjects/hello-feature-module/features/bye/build/intermediates/manifests/full/debug/AndroidManifest.xml:22:5-24:41
-MERGED from [:features:bye] /Users/zhangyu/OpenProjects/hello-feature-module/features/bye/build/intermediates/manifests/full/debug/AndroidManifest.xml:22:5-24:41
+INJECTED from /Users/zhangyu/OpenProjects/Instant-app-error/installed/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/zhangyu/OpenProjects/Instant-app-error/installed/src/main/AndroidManifest.xml
+INJECTED from /Users/zhangyu/OpenProjects/Instant-app-error/installed/src/main/AndroidManifest.xml
+MERGED from [:features:hello] /Users/zhangyu/OpenProjects/Instant-app-error/features/hello/build/intermediates/manifests/full/debug/AndroidManifest.xml:22:5-24:41
+MERGED from [:features:hello] /Users/zhangyu/OpenProjects/Instant-app-error/features/hello/build/intermediates/manifests/full/debug/AndroidManifest.xml:22:5-24:41
+MERGED from [:features:bye] /Users/zhangyu/OpenProjects/Instant-app-error/features/bye/build/intermediates/manifests/full/debug/AndroidManifest.xml:22:5-24:41
+MERGED from [:features:bye] /Users/zhangyu/OpenProjects/Instant-app-error/features/bye/build/intermediates/manifests/full/debug/AndroidManifest.xml:22:5-24:41
 MERGED from [com.google.android.instantapps:instantapps:1.0.0] /Users/zhangyu/.gradle/caches/transforms-1/files-1.1/instantapps-1.0.0.aar/357b87ccd5421d0b6b52bb0f3a489ffa/AndroidManifest.xml:3:3-70
 MERGED from [com.google.android.instantapps:instantapps:1.0.0] /Users/zhangyu/.gradle/caches/transforms-1/files-1.1/instantapps-1.0.0.aar/357b87ccd5421d0b6b52bb0f3a489ffa/AndroidManifest.xml:3:3-70
-MERGED from [:features:base] /Users/zhangyu/OpenProjects/hello-feature-module/features/base/build/intermediates/manifests/full/debug/AndroidManifest.xml:22:5-24:41
-MERGED from [:features:base] /Users/zhangyu/OpenProjects/hello-feature-module/features/base/build/intermediates/manifests/full/debug/AndroidManifest.xml:22:5-24:41
-MERGED from [:baselibrary] /Users/zhangyu/OpenProjects/hello-feature-module/baselibrary/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:baselibrary] /Users/zhangyu/OpenProjects/hello-feature-module/baselibrary/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:features:base] /Users/zhangyu/OpenProjects/Instant-app-error/features/base/build/intermediates/manifests/full/debug/AndroidManifest.xml:22:5-24:41
+MERGED from [:features:base] /Users/zhangyu/OpenProjects/Instant-app-error/features/base/build/intermediates/manifests/full/debug/AndroidManifest.xml:22:5-24:41
+MERGED from [:baselibrary] /Users/zhangyu/OpenProjects/Instant-app-error/baselibrary/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:baselibrary] /Users/zhangyu/OpenProjects/Instant-app-error/baselibrary/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
 MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/zhangyu/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/c4ad1d280de76d3a9eaec17ef13c3114/AndroidManifest.xml:21:5-23:78
 MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/zhangyu/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/c4ad1d280de76d3a9eaec17ef13c3114/AndroidManifest.xml:21:5-23:78
 MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/zhangyu/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.3.1.aar/50cb383ddf8a7d980b899049235a9163/AndroidManifest.xml:20:5-44
@@ -69,26 +69,26 @@ MERGED from [com.android.support:support-core-ui:25.3.1] /Users/zhangyu/.gradle/
 MERGED from [com.android.support:support-core-ui:25.3.1] /Users/zhangyu/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.3.1.aar/261cc596f843581e78da0f8f82347347/AndroidManifest.xml:21:5-23:58
 MERGED from [com.android.support:support-compat:25.3.1] /Users/zhangyu/.gradle/caches/transforms-1/files-1.1/support-compat-25.3.1.aar/806fd76d4711f9589d606fb5dfd0c4a2/AndroidManifest.xml:21:5-23:58
 MERGED from [com.android.support:support-compat:25.3.1] /Users/zhangyu/.gradle/caches/transforms-1/files-1.1/support-compat-25.3.1.aar/806fd76d4711f9589d606fb5dfd0c4a2/AndroidManifest.xml:21:5-23:58
-INJECTED from /Users/zhangyu/OpenProjects/hello-feature-module/installed/src/main/AndroidManifest.xml
-INJECTED from /Users/zhangyu/OpenProjects/hello-feature-module/installed/src/main/AndroidManifest.xml
+INJECTED from /Users/zhangyu/OpenProjects/Instant-app-error/installed/src/main/AndroidManifest.xml
+INJECTED from /Users/zhangyu/OpenProjects/Instant-app-error/installed/src/main/AndroidManifest.xml
 	tools:overrideLibrary
 		ADDED from [com.android.support:appcompat-v7:25.3.1] /Users/zhangyu/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/c4ad1d280de76d3a9eaec17ef13c3114/AndroidManifest.xml:23:9-75
 	android:targetSdkVersion
-		INJECTED from /Users/zhangyu/OpenProjects/hello-feature-module/installed/src/main/AndroidManifest.xml
-		ADDED from /Users/zhangyu/OpenProjects/hello-feature-module/installed/src/main/AndroidManifest.xml
-		INJECTED from /Users/zhangyu/OpenProjects/hello-feature-module/installed/src/main/AndroidManifest.xml
+		INJECTED from /Users/zhangyu/OpenProjects/Instant-app-error/installed/src/main/AndroidManifest.xml
+		ADDED from /Users/zhangyu/OpenProjects/Instant-app-error/installed/src/main/AndroidManifest.xml
+		INJECTED from /Users/zhangyu/OpenProjects/Instant-app-error/installed/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /Users/zhangyu/OpenProjects/hello-feature-module/installed/src/main/AndroidManifest.xml
-		ADDED from /Users/zhangyu/OpenProjects/hello-feature-module/installed/src/main/AndroidManifest.xml
-		INJECTED from /Users/zhangyu/OpenProjects/hello-feature-module/installed/src/main/AndroidManifest.xml
+		INJECTED from /Users/zhangyu/OpenProjects/Instant-app-error/installed/src/main/AndroidManifest.xml
+		ADDED from /Users/zhangyu/OpenProjects/Instant-app-error/installed/src/main/AndroidManifest.xml
+		INJECTED from /Users/zhangyu/OpenProjects/Instant-app-error/installed/src/main/AndroidManifest.xml
 application
-ADDED from [:features:hello] /Users/zhangyu/OpenProjects/hello-feature-module/features/hello/build/intermediates/manifests/full/debug/AndroidManifest.xml:26:5-65:19
-MERGED from [:features:bye] /Users/zhangyu/OpenProjects/hello-feature-module/features/bye/build/intermediates/manifests/full/debug/AndroidManifest.xml:26:5-64:19
-MERGED from [:features:bye] /Users/zhangyu/OpenProjects/hello-feature-module/features/bye/build/intermediates/manifests/full/debug/AndroidManifest.xml:26:5-64:19
+ADDED from [:features:hello] /Users/zhangyu/OpenProjects/Instant-app-error/features/hello/build/intermediates/manifests/full/debug/AndroidManifest.xml:26:5-65:19
+MERGED from [:features:bye] /Users/zhangyu/OpenProjects/Instant-app-error/features/bye/build/intermediates/manifests/full/debug/AndroidManifest.xml:26:5-64:19
+MERGED from [:features:bye] /Users/zhangyu/OpenProjects/Instant-app-error/features/bye/build/intermediates/manifests/full/debug/AndroidManifest.xml:26:5-64:19
 MERGED from [com.google.android.instantapps:instantapps:1.0.0] /Users/zhangyu/.gradle/caches/transforms-1/files-1.1/instantapps-1.0.0.aar/357b87ccd5421d0b6b52bb0f3a489ffa/AndroidManifest.xml:4:3-6:17
 MERGED from [com.google.android.instantapps:instantapps:1.0.0] /Users/zhangyu/.gradle/caches/transforms-1/files-1.1/instantapps-1.0.0.aar/357b87ccd5421d0b6b52bb0f3a489ffa/AndroidManifest.xml:4:3-6:17
-MERGED from [:features:base] /Users/zhangyu/OpenProjects/hello-feature-module/features/base/build/intermediates/manifests/full/debug/AndroidManifest.xml:32:5-41:19
-MERGED from [:features:base] /Users/zhangyu/OpenProjects/hello-feature-module/features/base/build/intermediates/manifests/full/debug/AndroidManifest.xml:32:5-41:19
+MERGED from [:features:base] /Users/zhangyu/OpenProjects/Instant-app-error/features/base/build/intermediates/manifests/full/debug/AndroidManifest.xml:32:5-41:19
+MERGED from [:features:base] /Users/zhangyu/OpenProjects/Instant-app-error/features/base/build/intermediates/manifests/full/debug/AndroidManifest.xml:32:5-41:19
 MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/zhangyu/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/c4ad1d280de76d3a9eaec17ef13c3114/AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/zhangyu/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/c4ad1d280de76d3a9eaec17ef13c3114/AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/zhangyu/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.3.1.aar/50cb383ddf8a7d980b899049235a9163/AndroidManifest.xml:26:5-20
@@ -108,85 +108,85 @@ MERGED from [com.android.support:support-core-ui:25.3.1] /Users/zhangyu/.gradle/
 MERGED from [com.android.support:support-compat:25.3.1] /Users/zhangyu/.gradle/caches/transforms-1/files-1.1/support-compat-25.3.1.aar/806fd76d4711f9589d606fb5dfd0c4a2/AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:support-compat:25.3.1] /Users/zhangyu/.gradle/caches/transforms-1/files-1.1/support-compat-25.3.1.aar/806fd76d4711f9589d606fb5dfd0c4a2/AndroidManifest.xml:29:5-20
 	android:supportsRtl
-		ADDED from [:features:base] /Users/zhangyu/OpenProjects/hello-feature-module/features/base/build/intermediates/manifests/full/debug/AndroidManifest.xml:36:9-35
+		ADDED from [:features:base] /Users/zhangyu/OpenProjects/Instant-app-error/features/base/build/intermediates/manifests/full/debug/AndroidManifest.xml:36:9-35
 	android:label
-		ADDED from [:features:base] /Users/zhangyu/OpenProjects/hello-feature-module/features/base/build/intermediates/manifests/full/debug/AndroidManifest.xml:35:9-41
+		ADDED from [:features:base] /Users/zhangyu/OpenProjects/Instant-app-error/features/base/build/intermediates/manifests/full/debug/AndroidManifest.xml:35:9-41
 	android:allowBackup
-		ADDED from [:features:base] /Users/zhangyu/OpenProjects/hello-feature-module/features/base/build/intermediates/manifests/full/debug/AndroidManifest.xml:34:9-35
+		ADDED from [:features:base] /Users/zhangyu/OpenProjects/Instant-app-error/features/base/build/intermediates/manifests/full/debug/AndroidManifest.xml:34:9-35
 	android:theme
-		ADDED from [:features:base] /Users/zhangyu/OpenProjects/hello-feature-module/features/base/build/intermediates/manifests/full/debug/AndroidManifest.xml:37:9-40
+		ADDED from [:features:base] /Users/zhangyu/OpenProjects/Instant-app-error/features/base/build/intermediates/manifests/full/debug/AndroidManifest.xml:37:9-40
 	android:name
-		ADDED from [:features:base] /Users/zhangyu/OpenProjects/hello-feature-module/features/base/build/intermediates/manifests/full/debug/AndroidManifest.xml:33:9-69
+		ADDED from [:features:base] /Users/zhangyu/OpenProjects/Instant-app-error/features/base/build/intermediates/manifests/full/debug/AndroidManifest.xml:33:9-69
 meta-data#asset_statements
-ADDED from [:features:hello] /Users/zhangyu/OpenProjects/hello-feature-module/features/hello/build/intermediates/manifests/full/debug/AndroidManifest.xml:27:9-29:59
-MERGED from [:features:bye] /Users/zhangyu/OpenProjects/hello-feature-module/features/bye/build/intermediates/manifests/full/debug/AndroidManifest.xml:27:9-29:59
-MERGED from [:features:bye] /Users/zhangyu/OpenProjects/hello-feature-module/features/bye/build/intermediates/manifests/full/debug/AndroidManifest.xml:27:9-29:59
-MERGED from [:features:base] /Users/zhangyu/OpenProjects/hello-feature-module/features/base/build/intermediates/manifests/full/debug/AndroidManifest.xml:38:9-40:59
-MERGED from [:features:base] /Users/zhangyu/OpenProjects/hello-feature-module/features/base/build/intermediates/manifests/full/debug/AndroidManifest.xml:38:9-40:59
+ADDED from [:features:hello] /Users/zhangyu/OpenProjects/Instant-app-error/features/hello/build/intermediates/manifests/full/debug/AndroidManifest.xml:27:9-29:59
+MERGED from [:features:bye] /Users/zhangyu/OpenProjects/Instant-app-error/features/bye/build/intermediates/manifests/full/debug/AndroidManifest.xml:27:9-29:59
+MERGED from [:features:bye] /Users/zhangyu/OpenProjects/Instant-app-error/features/bye/build/intermediates/manifests/full/debug/AndroidManifest.xml:27:9-29:59
+MERGED from [:features:base] /Users/zhangyu/OpenProjects/Instant-app-error/features/base/build/intermediates/manifests/full/debug/AndroidManifest.xml:38:9-40:59
+MERGED from [:features:base] /Users/zhangyu/OpenProjects/Instant-app-error/features/base/build/intermediates/manifests/full/debug/AndroidManifest.xml:38:9-40:59
 	android:resource
-		ADDED from [:features:hello] /Users/zhangyu/OpenProjects/hello-feature-module/features/hello/build/intermediates/manifests/full/debug/AndroidManifest.xml:29:13-56
+		ADDED from [:features:hello] /Users/zhangyu/OpenProjects/Instant-app-error/features/hello/build/intermediates/manifests/full/debug/AndroidManifest.xml:29:13-56
 	android:name
-		ADDED from [:features:hello] /Users/zhangyu/OpenProjects/hello-feature-module/features/hello/build/intermediates/manifests/full/debug/AndroidManifest.xml:28:13-44
+		ADDED from [:features:hello] /Users/zhangyu/OpenProjects/Instant-app-error/features/hello/build/intermediates/manifests/full/debug/AndroidManifest.xml:28:13-44
 activity#com.instantappsamples.feature.hello.HelloActivity
-ADDED from [:features:hello] /Users/zhangyu/OpenProjects/hello-feature-module/features/hello/build/intermediates/manifests/full/debug/AndroidManifest.xml:31:9-64:20
+ADDED from [:features:hello] /Users/zhangyu/OpenProjects/Instant-app-error/features/hello/build/intermediates/manifests/full/debug/AndroidManifest.xml:31:9-64:20
 	android:label
-		ADDED from [:features:hello] /Users/zhangyu/OpenProjects/hello-feature-module/features/hello/build/intermediates/manifests/full/debug/AndroidManifest.xml:33:13-57
+		ADDED from [:features:hello] /Users/zhangyu/OpenProjects/Instant-app-error/features/hello/build/intermediates/manifests/full/debug/AndroidManifest.xml:33:13-57
 	android:theme
-		ADDED from [:features:hello] /Users/zhangyu/OpenProjects/hello-feature-module/features/hello/build/intermediates/manifests/full/debug/AndroidManifest.xml:34:13-44
+		ADDED from [:features:hello] /Users/zhangyu/OpenProjects/Instant-app-error/features/hello/build/intermediates/manifests/full/debug/AndroidManifest.xml:34:13-44
 	android:name
-		ADDED from [:features:hello] /Users/zhangyu/OpenProjects/hello-feature-module/features/hello/build/intermediates/manifests/full/debug/AndroidManifest.xml:32:13-77
+		ADDED from [:features:hello] /Users/zhangyu/OpenProjects/Instant-app-error/features/hello/build/intermediates/manifests/full/debug/AndroidManifest.xml:32:13-77
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from [:features:hello] /Users/zhangyu/OpenProjects/hello-feature-module/features/hello/build/intermediates/manifests/full/debug/AndroidManifest.xml:35:13-39:29
+ADDED from [:features:hello] /Users/zhangyu/OpenProjects/Instant-app-error/features/hello/build/intermediates/manifests/full/debug/AndroidManifest.xml:35:13-39:29
 	android:label
-		ADDED from [:features:hello] /Users/zhangyu/OpenProjects/hello-feature-module/features/hello/build/intermediates/manifests/full/debug/AndroidManifest.xml:35:28-60
+		ADDED from [:features:hello] /Users/zhangyu/OpenProjects/Instant-app-error/features/hello/build/intermediates/manifests/full/debug/AndroidManifest.xml:35:28-60
 action#android.intent.action.MAIN
-ADDED from [:features:hello] /Users/zhangyu/OpenProjects/hello-feature-module/features/hello/build/intermediates/manifests/full/debug/AndroidManifest.xml:36:17-69
+ADDED from [:features:hello] /Users/zhangyu/OpenProjects/Instant-app-error/features/hello/build/intermediates/manifests/full/debug/AndroidManifest.xml:36:17-69
 	android:name
-		ADDED from [:features:hello] /Users/zhangyu/OpenProjects/hello-feature-module/features/hello/build/intermediates/manifests/full/debug/AndroidManifest.xml:36:25-66
+		ADDED from [:features:hello] /Users/zhangyu/OpenProjects/Instant-app-error/features/hello/build/intermediates/manifests/full/debug/AndroidManifest.xml:36:25-66
 category#android.intent.category.LAUNCHER
-ADDED from [:features:hello] /Users/zhangyu/OpenProjects/hello-feature-module/features/hello/build/intermediates/manifests/full/debug/AndroidManifest.xml:38:17-77
+ADDED from [:features:hello] /Users/zhangyu/OpenProjects/Instant-app-error/features/hello/build/intermediates/manifests/full/debug/AndroidManifest.xml:38:17-77
 	android:name
-		ADDED from [:features:hello] /Users/zhangyu/OpenProjects/hello-feature-module/features/hello/build/intermediates/manifests/full/debug/AndroidManifest.xml:38:27-74
+		ADDED from [:features:hello] /Users/zhangyu/OpenProjects/Instant-app-error/features/hello/build/intermediates/manifests/full/debug/AndroidManifest.xml:38:27-74
 intent-filter#android.intent.action.VIEW+android.intent.category.BROWSABLE+android.intent.category.DEFAULT
-ADDED from [:features:hello] /Users/zhangyu/OpenProjects/hello-feature-module/features/hello/build/intermediates/manifests/full/debug/AndroidManifest.xml:40:13-52:29
+ADDED from [:features:hello] /Users/zhangyu/OpenProjects/Instant-app-error/features/hello/build/intermediates/manifests/full/debug/AndroidManifest.xml:40:13-52:29
 	android:autoVerify
-		ADDED from [:features:hello] /Users/zhangyu/OpenProjects/hello-feature-module/features/hello/build/intermediates/manifests/full/debug/AndroidManifest.xml:41:17-42
+		ADDED from [:features:hello] /Users/zhangyu/OpenProjects/Instant-app-error/features/hello/build/intermediates/manifests/full/debug/AndroidManifest.xml:41:17-42
 	android:order
-		ADDED from [:features:hello] /Users/zhangyu/OpenProjects/hello-feature-module/features/hello/build/intermediates/manifests/full/debug/AndroidManifest.xml:42:17-34
+		ADDED from [:features:hello] /Users/zhangyu/OpenProjects/Instant-app-error/features/hello/build/intermediates/manifests/full/debug/AndroidManifest.xml:42:17-34
 action#android.intent.action.VIEW
-ADDED from [:features:hello] /Users/zhangyu/OpenProjects/hello-feature-module/features/hello/build/intermediates/manifests/full/debug/AndroidManifest.xml:43:17-69
+ADDED from [:features:hello] /Users/zhangyu/OpenProjects/Instant-app-error/features/hello/build/intermediates/manifests/full/debug/AndroidManifest.xml:43:17-69
 	android:name
-		ADDED from [:features:hello] /Users/zhangyu/OpenProjects/hello-feature-module/features/hello/build/intermediates/manifests/full/debug/AndroidManifest.xml:43:25-66
+		ADDED from [:features:hello] /Users/zhangyu/OpenProjects/Instant-app-error/features/hello/build/intermediates/manifests/full/debug/AndroidManifest.xml:43:25-66
 category#android.intent.category.DEFAULT
-ADDED from [:features:hello] /Users/zhangyu/OpenProjects/hello-feature-module/features/hello/build/intermediates/manifests/full/debug/AndroidManifest.xml:45:17-76
+ADDED from [:features:hello] /Users/zhangyu/OpenProjects/Instant-app-error/features/hello/build/intermediates/manifests/full/debug/AndroidManifest.xml:45:17-76
 	android:name
-		ADDED from [:features:hello] /Users/zhangyu/OpenProjects/hello-feature-module/features/hello/build/intermediates/manifests/full/debug/AndroidManifest.xml:45:27-73
+		ADDED from [:features:hello] /Users/zhangyu/OpenProjects/Instant-app-error/features/hello/build/intermediates/manifests/full/debug/AndroidManifest.xml:45:27-73
 category#android.intent.category.BROWSABLE
-ADDED from [:features:hello] /Users/zhangyu/OpenProjects/hello-feature-module/features/hello/build/intermediates/manifests/full/debug/AndroidManifest.xml:46:17-78
+ADDED from [:features:hello] /Users/zhangyu/OpenProjects/Instant-app-error/features/hello/build/intermediates/manifests/full/debug/AndroidManifest.xml:46:17-78
 	android:name
-		ADDED from [:features:hello] /Users/zhangyu/OpenProjects/hello-feature-module/features/hello/build/intermediates/manifests/full/debug/AndroidManifest.xml:46:27-75
+		ADDED from [:features:hello] /Users/zhangyu/OpenProjects/Instant-app-error/features/hello/build/intermediates/manifests/full/debug/AndroidManifest.xml:46:27-75
 data
-ADDED from [:features:hello] /Users/zhangyu/OpenProjects/hello-feature-module/features/hello/build/intermediates/manifests/full/debug/AndroidManifest.xml:48:17-51:46
+ADDED from [:features:hello] /Users/zhangyu/OpenProjects/Instant-app-error/features/hello/build/intermediates/manifests/full/debug/AndroidManifest.xml:48:17-51:46
 	android:host
-		ADDED from [:features:hello] /Users/zhangyu/OpenProjects/hello-feature-module/features/hello/build/intermediates/manifests/full/debug/AndroidManifest.xml:49:21-70
+		ADDED from [:features:hello] /Users/zhangyu/OpenProjects/Instant-app-error/features/hello/build/intermediates/manifests/full/debug/AndroidManifest.xml:49:21-70
 	android:scheme
-		ADDED from [:features:hello] /Users/zhangyu/OpenProjects/hello-feature-module/features/hello/build/intermediates/manifests/full/debug/AndroidManifest.xml:51:21-43
+		ADDED from [:features:hello] /Users/zhangyu/OpenProjects/Instant-app-error/features/hello/build/intermediates/manifests/full/debug/AndroidManifest.xml:51:21-43
 	android:pathPrefix
-		ADDED from [:features:hello] /Users/zhangyu/OpenProjects/hello-feature-module/features/hello/build/intermediates/manifests/full/debug/AndroidManifest.xml:50:21-48
+		ADDED from [:features:hello] /Users/zhangyu/OpenProjects/Instant-app-error/features/hello/build/intermediates/manifests/full/debug/AndroidManifest.xml:50:21-48
 activity#com.instantappsamples.feature.bye.GoodbyeActivity
-ADDED from [:features:bye] /Users/zhangyu/OpenProjects/hello-feature-module/features/bye/build/intermediates/manifests/full/debug/AndroidManifest.xml:31:9-63:20
+ADDED from [:features:bye] /Users/zhangyu/OpenProjects/Instant-app-error/features/bye/build/intermediates/manifests/full/debug/AndroidManifest.xml:31:9-63:20
 	android:label
-		ADDED from [:features:bye] /Users/zhangyu/OpenProjects/hello-feature-module/features/bye/build/intermediates/manifests/full/debug/AndroidManifest.xml:33:13-59
+		ADDED from [:features:bye] /Users/zhangyu/OpenProjects/Instant-app-error/features/bye/build/intermediates/manifests/full/debug/AndroidManifest.xml:33:13-59
 	android:theme
-		ADDED from [:features:bye] /Users/zhangyu/OpenProjects/hello-feature-module/features/bye/build/intermediates/manifests/full/debug/AndroidManifest.xml:34:13-44
+		ADDED from [:features:bye] /Users/zhangyu/OpenProjects/Instant-app-error/features/bye/build/intermediates/manifests/full/debug/AndroidManifest.xml:34:13-44
 	android:name
-		ADDED from [:features:bye] /Users/zhangyu/OpenProjects/hello-feature-module/features/bye/build/intermediates/manifests/full/debug/AndroidManifest.xml:32:13-77
+		ADDED from [:features:bye] /Users/zhangyu/OpenProjects/Instant-app-error/features/bye/build/intermediates/manifests/full/debug/AndroidManifest.xml:32:13-77
 meta-data#default-url
-ADDED from [:features:bye] /Users/zhangyu/OpenProjects/hello-feature-module/features/bye/build/intermediates/manifests/full/debug/AndroidManifest.xml:35:13-37:82
+ADDED from [:features:bye] /Users/zhangyu/OpenProjects/Instant-app-error/features/bye/build/intermediates/manifests/full/debug/AndroidManifest.xml:35:13-37:82
 	android:value
-		ADDED from [:features:bye] /Users/zhangyu/OpenProjects/hello-feature-module/features/bye/build/intermediates/manifests/full/debug/AndroidManifest.xml:37:17-79
+		ADDED from [:features:bye] /Users/zhangyu/OpenProjects/Instant-app-error/features/bye/build/intermediates/manifests/full/debug/AndroidManifest.xml:37:17-79
 	android:name
-		ADDED from [:features:bye] /Users/zhangyu/OpenProjects/hello-feature-module/features/bye/build/intermediates/manifests/full/debug/AndroidManifest.xml:36:17-43
+		ADDED from [:features:bye] /Users/zhangyu/OpenProjects/Instant-app-error/features/bye/build/intermediates/manifests/full/debug/AndroidManifest.xml:36:17-43
 meta-data#aia-compat-api-min-version
 ADDED from [com.google.android.instantapps:instantapps:1.0.0] /Users/zhangyu/.gradle/caches/transforms-1/files-1.1/instantapps-1.0.0.aar/357b87ccd5421d0b6b52bb0f3a489ffa/AndroidManifest.xml:5:5-77
 	android:value
@@ -194,21 +194,21 @@ ADDED from [com.google.android.instantapps:instantapps:1.0.0] /Users/zhangyu/.gr
 	android:name
 		ADDED from [com.google.android.instantapps:instantapps:1.0.0] /Users/zhangyu/.gradle/caches/transforms-1/files-1.1/instantapps-1.0.0.aar/357b87ccd5421d0b6b52bb0f3a489ffa/AndroidManifest.xml:5:16-57
 uses-permission#android.permission.INTERNET
-ADDED from [:features:base] /Users/zhangyu/OpenProjects/hello-feature-module/features/base/build/intermediates/manifests/full/debug/AndroidManifest.xml:26:5-67
+ADDED from [:features:base] /Users/zhangyu/OpenProjects/Instant-app-error/features/base/build/intermediates/manifests/full/debug/AndroidManifest.xml:26:5-67
 	android:name
-		ADDED from [:features:base] /Users/zhangyu/OpenProjects/hello-feature-module/features/base/build/intermediates/manifests/full/debug/AndroidManifest.xml:26:22-64
+		ADDED from [:features:base] /Users/zhangyu/OpenProjects/Instant-app-error/features/base/build/intermediates/manifests/full/debug/AndroidManifest.xml:26:22-64
 uses-permission#android.permission.READ_PHONE_STATE
-ADDED from [:features:base] /Users/zhangyu/OpenProjects/hello-feature-module/features/base/build/intermediates/manifests/full/debug/AndroidManifest.xml:27:5-75
+ADDED from [:features:base] /Users/zhangyu/OpenProjects/Instant-app-error/features/base/build/intermediates/manifests/full/debug/AndroidManifest.xml:27:5-75
 	android:name
-		ADDED from [:features:base] /Users/zhangyu/OpenProjects/hello-feature-module/features/base/build/intermediates/manifests/full/debug/AndroidManifest.xml:27:22-72
+		ADDED from [:features:base] /Users/zhangyu/OpenProjects/Instant-app-error/features/base/build/intermediates/manifests/full/debug/AndroidManifest.xml:27:22-72
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from [:features:base] /Users/zhangyu/OpenProjects/hello-feature-module/features/base/build/intermediates/manifests/full/debug/AndroidManifest.xml:28:5-81
+ADDED from [:features:base] /Users/zhangyu/OpenProjects/Instant-app-error/features/base/build/intermediates/manifests/full/debug/AndroidManifest.xml:28:5-81
 	android:name
-		ADDED from [:features:base] /Users/zhangyu/OpenProjects/hello-feature-module/features/base/build/intermediates/manifests/full/debug/AndroidManifest.xml:28:22-78
+		ADDED from [:features:base] /Users/zhangyu/OpenProjects/Instant-app-error/features/base/build/intermediates/manifests/full/debug/AndroidManifest.xml:28:22-78
 uses-permission-sdk-23#android.permission.ACCESS_FINE_LOCATION
-ADDED from [:features:base] /Users/zhangyu/OpenProjects/hello-feature-module/features/base/build/intermediates/manifests/full/debug/AndroidManifest.xml:30:5-86
+ADDED from [:features:base] /Users/zhangyu/OpenProjects/Instant-app-error/features/base/build/intermediates/manifests/full/debug/AndroidManifest.xml:30:5-86
 	android:name
-		ADDED from [:features:base] /Users/zhangyu/OpenProjects/hello-feature-module/features/base/build/intermediates/manifests/full/debug/AndroidManifest.xml:30:29-83
+		ADDED from [:features:base] /Users/zhangyu/OpenProjects/Instant-app-error/features/base/build/intermediates/manifests/full/debug/AndroidManifest.xml:30:29-83
 meta-data#android.support.VERSION
 ADDED from [com.android.support:appcompat-v7:25.3.1] /Users/zhangyu/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/c4ad1d280de76d3a9eaec17ef13c3114/AndroidManifest.xml:25:5-27:34
 MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/zhangyu/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.3.1.aar/50cb383ddf8a7d980b899049235a9163/AndroidManifest.xml:22:5-24:34

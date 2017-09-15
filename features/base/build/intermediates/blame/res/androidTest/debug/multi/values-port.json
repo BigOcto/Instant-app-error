@@ -1,6 +1,21 @@
 {
     "logs": [
         {
+            "outputFile": "/Users/zhangyu/OpenProjects/Instant-app-error/features/base/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-port/values-port.xml",
+            "map": [
+                {
+                    "source": "/Users/zhangyu/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/c4ad1d280de76d3a9eaec17ef13c3114/res/values-port/values-port.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "55",
+                        "endOffsets": "106"
+                    }
+                }
+            ]
+        },
+        {
             "outputFile": "/Users/zhangyu/OpenProjects/hello-feature-module/features/base/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-port/values-port.xml",
             "map": [
                 {

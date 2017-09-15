@@ -1,5 +1,9 @@
 [
     {
+        "merged": "/Users/zhangyu/OpenProjects/Instant-app-error/features/bye/build/intermediates/res/merged/feature/debug/layout_activity_goodbye.xml.flat",
+        "source": "/Users/zhangyu/OpenProjects/Instant-app-error/features/bye/src/main/res/layout/activity_goodbye.xml"
+    },
+    {
         "merged": "/Users/zhangyu/OpenProjects/hello-feature-module/features/bye/build/intermediates/res/merged/feature/debug/layout_activity_goodbye.xml.flat",
         "source": "/Users/zhangyu/OpenProjects/hello-feature-module/features/bye/src/main/res/layout/activity_goodbye.xml"
     }

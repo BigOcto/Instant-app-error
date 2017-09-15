@@ -1,6 +1,22 @@
 {
     "logs": [
         {
+            "outputFile": "/Users/zhangyu/OpenProjects/Instant-app-error/baselibrary/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values/values.xml",
+            "map": [
+                {
+                    "source": "/Users/zhangyu/OpenProjects/Instant-app-error/baselibrary/build/intermediates/bundles/debug/res/values/values.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,9,17",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "55,104,169,236,383,843",
+                        "endLines": "2,3,4,8,16,26",
+                        "endColumns": "48,64,66,12,12,12",
+                        "endOffsets": "99,164,231,378,838,1346"
+                    }
+                }
+            ]
+        },
+        {
             "outputFile": "/Users/zhangyu/OpenProjects/hello-feature-module/baselibrary/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values/values.xml",
             "map": [
                 {
